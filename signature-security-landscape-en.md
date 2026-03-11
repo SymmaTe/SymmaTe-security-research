@@ -262,7 +262,7 @@ But in voting weight accounting: attacker's transparent key is counted
 Attacker gains voting weight with zero stake → may influence consensus outcome
 ```
 
-Fix: Explicitly reject the point at infinity as a valid public key in both circuit and verification logic.
+Fix: Explicitly reject the point at infinity as a valid public key in verification logic.
 
 ---
 
